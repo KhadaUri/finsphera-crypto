@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Finsphera Crypto - Technical Assessment
 
-## Getting Started
+A modern, responsive, and resilient cryptocurrency market analyzer built with the latest frontend technologies.
 
-First, run the development server:
+## 🔗 Live Demo & Repo
+- **Live URL:** -
+- **Repository:** https://github.com/KhadaUri/finsphera-crypto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack & Architecture Decisions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project follows a **Feature-First Architecture** to ensure scalability and maintainability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15 (App Router):** Chosen for its robust server-side capabilities and routing performance.
+- **TanStack Query (React Query):** Implemented for efficient server state management. It handles caching, deduplication, and loading/error states out of the box.
+- **Zustand:** Selected over Redux for global client state (search filters, modal UI) due to its minimal boilerplate and ease of use.
+- **Tailwind CSS + clsx:** For rapid, utility-first styling with conditional class management.
+- **Framer Motion:** Used to create "Shared Layout Animations" (Morphing) between the grid cards and the details modal, providing a premium, app-like feel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📂 Structure Highlights
+- `/store`: Centralized global state (Atomic state management).
+- `/lib`: Singleton instances (Axios, QueryClient) and utility helpers.
+- `/components`: Reusable UI blocks following atomic design principles.
 
-## Learn More
+## 🤖 AI Usage Transparency (Process)
 
-To learn more about Next.js, take a look at the following resources:
+At Finsphera, efficiency is key. Here is how I leveraged AI tools responsibly during development:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Tailwind & UI:** Accelerated the creation of Dark Mode utility classes using code completion tools.
+2.  **Documentation:** Leveraged AI to assist in drafting and formatting this README to ensure clarity and professional tone.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Future Improvements & Roadmap
 
-## Deploy on Vercel
+If I were to continue developing this project for production, I would prioritize:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Full Feature Implementation:** Develop the actual logic for the "Portfolio", "Analytics", and "Settings" modules, including User Authentication (Login/Logout) and persistent user preferences (saving favorite coins).
+2.  **End-to-End Testing:** Add Playwright tests to automate critical user flows (e.g., verifying that clicking a coin opens the correct modal details).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Developed for the Finsphera Technical Assessment.*
