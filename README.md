@@ -3,7 +3,7 @@
 A modern, responsive, and resilient cryptocurrency market analyzer built with the latest frontend technologies.
 
 ## 🔗 Live Demo & Repo
-- **Live URL:** -
+- **Live URL:** https://finsphera-crypto.netlify.app/
 - **Repository:** https://github.com/KhadaUri/finsphera-crypto
 
 ## 🛠 Tech Stack & Architecture Decisions
