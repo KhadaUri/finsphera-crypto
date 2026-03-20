@@ -35,5 +35,3 @@ If I were to continue developing this project for production, I would prioritize
 1.  **Full Feature Implementation:** Develop the actual logic for the "Portfolio", "Analytics", and "Settings" modules, including User Authentication (Login/Logout) and persistent user preferences (saving favorite coins).
 2.  **End-to-End Testing:** Add Playwright tests to automate critical user flows (e.g., verifying that clicking a coin opens the correct modal details).
 
----
-*Developed for the Finsphera Technical Assessment.*
